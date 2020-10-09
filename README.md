@@ -5,7 +5,7 @@ an operating system linux based.
 <br />
 <br />
 
-Okay, first you need to build the linux kernel in order for you to configure it and build your own distro later or. 
+Okay, first you need to build the linux kernel in order for you to configure it and build your own distro later on. <br />
 Check ```LinuxBuild``` directory for an automated build. 
 
 
