@@ -1,0 +1,16 @@
+# /etc/profile
+
+#Set our umask
+umask 022
+
+# Set our default path
+PATH="/usr/local/sbin:/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin"
+export PATH
+
+# Load profiles from /etc/profile.d
+if test -d /etc/profile.d/; then
+	for profile in /etc/profile.d/*.sh; do
+		test -r "$profile" && . "$profile"
+	done
+	unset profile
+fi
