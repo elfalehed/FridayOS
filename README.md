@@ -41,4 +41,10 @@ $ qemu-system-x86_64 -hda image
 <img src="fridayosSC2.png" style="float: left; margin-right: 10px;" />
 <img src="fridayosSC3.png" style="float: left; margin-right: 10px;" />
 
+<br/>
+<br /> 
+
+After building our kernel. We can see it as some sort of a light version. <br />
+Now any major changes are gonna be found in `cm-change` or You can use git fetch & pull to download any upgrade and edits I make in my own version. <br />
+Make sure you understand the Linux system layout and file system so You can edit and not screw things up.
 
