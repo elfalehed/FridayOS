@@ -32,7 +32,7 @@ $ git submodule init && git submodule update
 make -j image 
 ```
 
-<i> Running on Emulator (Make sure you've got `Qemu` installed... </i>
+<i> Running on Emulator (Make sure you've got `Qemu` installed...) </i>
 ```
 $ qemu-system-x86_64 -hda image 
 ``` 
@@ -46,5 +46,10 @@ $ qemu-system-x86_64 -hda image
 
 After building our kernel. We can see it as some sort of a light version. <br />
 Now any major changes are gonna be found in `cm-change` or You can use git fetch & pull to download any upgrade and edits I make in my own version. <br />
-Make sure you understand the Linux system layout and file system so You can edit and not screw things up.
+Make sure you understand the Linux system layout and file system so You can edit and not screw things up. <br />
+
+
+
+
+
 
