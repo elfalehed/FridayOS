@@ -24,7 +24,21 @@ $ cd LinuxBuild
 <i>Now, after cloning the repository. Lets install what's needed and Go on. </i>
 
 ```
+$ git submodule init && git submodule update 
  
 ```
+<i> <b> Making an image </b> </i> 
+```
+make -j image 
+```
+
+<i> Running on Emulator (Make sure you've got `Qemu` installed... </i>
+```
+$ qemu-system-x86_64 -hda image 
+``` 
+
+<img src="fridayosSC1.png" style="float: left; margin-right: 10px;" />
+<img src="fridayosSC2.png" style="float: left; margin-right: 10px;" />
+<img src="fridayosSC3.png" style="float: left; margin-right: 10px;" />
 
 
