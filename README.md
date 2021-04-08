@@ -17,7 +17,7 @@ $ sudo apt-get install build-essential musl-tools grub-pc-bin
 ```
 <i> Now, </i> 
 ```
-$ git clone https://github.com/KMx404/LinuxBuild.git 
+$ git clone https://github.com/elfalehdev/LinuxBuild.git 
 
 $ cd LinuxBuild 
 ```
