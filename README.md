@@ -9,7 +9,7 @@ Okay, first you need to build the linux kernel in order for you to configure it 
 Check ```LinuxBuild``` directory for an automated build. 
 
 
-:warning: You don't have to clone nor install the hall kernel since you can automate the build. <br />
+:warning: You don't have to clone nor install the whole kernel since you can automate the build. <br />
 
 <i> Before diving into the installating. Make sure you've got this. </i><br />
 ```
